@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A604C8CA205AB71D00A4860A /* BinaryCounterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A604C8C9205AB71D00A4860A /* BinaryCounterTableViewController.swift */; };
+		A604C8CC205AB8AD00A4860A /* BinaryCounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A604C8CB205AB8AD00A4860A /* BinaryCounterCell.swift */; };
 		A6C80EAA205A0B9A00CAF188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C80EA9205A0B9A00CAF188 /* AppDelegate.swift */; };
-		A6C80EAC205A0B9A00CAF188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C80EAB205A0B9A00CAF188 /* ViewController.swift */; };
 		A6C80EAF205A0B9A00CAF188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C80EAD205A0B9A00CAF188 /* Main.storyboard */; };
 		A6C80EB1205A0B9A00CAF188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C80EB0205A0B9A00CAF188 /* Assets.xcassets */; };
 		A6C80EB4205A0B9A00CAF188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C80EB2205A0B9A00CAF188 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A604C8C9205AB71D00A4860A /* BinaryCounterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterTableViewController.swift; sourceTree = "<group>"; };
+		A604C8CB205AB8AD00A4860A /* BinaryCounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterCell.swift; sourceTree = "<group>"; };
 		A6C80EA6205A0B9A00CAF188 /* binary_counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binary_counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C80EA9205A0B9A00CAF188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6C80EAB205A0B9A00CAF188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6C80EAE205A0B9A00CAF188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6C80EB0205A0B9A00CAF188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6C80EB3205A0B9A00CAF188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,9 +99,10 @@
 		A6C80EA8205A0B9A00CAF188 /* binary_counter */ = {
 			isa = PBXGroup;
 			children = (
+				A604C8C9205AB71D00A4860A /* BinaryCounterTableViewController.swift */,
 				A6C80EA9205A0B9A00CAF188 /* AppDelegate.swift */,
-				A6C80EAB205A0B9A00CAF188 /* ViewController.swift */,
 				A6C80EAD205A0B9A00CAF188 /* Main.storyboard */,
+				A604C8CB205AB8AD00A4860A /* BinaryCounterCell.swift */,
 				A6C80EB0205A0B9A00CAF188 /* Assets.xcassets */,
 				A6C80EB2205A0B9A00CAF188 /* LaunchScreen.storyboard */,
 				A6C80EB5205A0B9A00CAF188 /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6C80EAC205A0B9A00CAF188 /* ViewController.swift in Sources */,
+				A604C8CC205AB8AD00A4860A /* BinaryCounterCell.swift in Sources */,
 				A6C80EAA205A0B9A00CAF188 /* AppDelegate.swift in Sources */,
+				A604C8CA205AB71D00A4860A /* BinaryCounterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
